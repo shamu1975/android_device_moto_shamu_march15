@@ -173,6 +173,10 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     libaudio-resampler
 
+# DRM HAL
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl
+
 # drmservice props
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
