@@ -208,7 +208,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.est_max_time=600 \
     ro.facelock.use_intro_anim=false
 
+#CAMERA
 PRODUCT_PACKAGES += \
+    android.hardware.camera.device@3.2-impl \
+    android.hardware.camera.provider@2.4-impl \
     libqomx_core \
     libmmcamera_interface \
     libmmjpeg_interface \
