@@ -510,3 +510,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # miracast props
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1﻿
+
+# QC time-daemon to use persist
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.delta_time.enable=true
