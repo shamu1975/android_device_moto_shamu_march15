@@ -199,7 +199,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
-    android.hardware.audio.effect@2.0-impl
+    android.hardware.audio@2.0-service \
+    android.hardware.audio.effect@2.0-impl \
+    android.hardware.audio.effect@2.0-service
 
 # DRM HAL
 PRODUCT_PACKAGES += \
@@ -220,6 +222,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Audio effects
 PRODUCT_PACKAGES += \
+    libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcomvoiceprocessingdescriptors
